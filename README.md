@@ -1,6 +1,6 @@
 #   Estructuras de datos avanzadas
 ##  Introducción
-Paquete de Estructuras de Datos para la unidad de aprendizaje de *Estructuras de Datos Avanzadas* por Edwin Francisco Olivo Garcia.
+Paquete de Estructuras de Datos para la unidad de aprendizaje de *Estructuras de Datos Avanzadas*.
 
 Contiene implementaciones de estructuras avanzadas de datos, algoritmos de búsqueda, árboles y gráfos.
 ##  Estructuras
