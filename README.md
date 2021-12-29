@@ -1,22 +1,21 @@
-#   Estructuras de datos avanzadas
-##  Introducción
-Paquete de Estructuras de Datos para la unidad de aprendizaje de *Estructuras de Datos Avanzadas*.
+#   Advanced Data Structures
+##  Introduction
+Data Structures Package for the *Estructuras de Datos Avanzadas* learning unit.
 
-Contiene implementaciones de estructuras avanzadas de datos, algoritmos de búsqueda, árboles y gráfos.
-##  Estructuras
-- [x] Grafo
-- [x] Árbol Binario
-##  Árboles y Grafos
+It contains implementations of Advanced Data Strutures, Search Algorithms, Binary Trees and Graphs.
+###  Data Structures
+- [x] Graph
+- [x] Binary Tree
+###  Trees and Graphs
 - [x] Havel-Hakimi
 - [x] Dijkstra
-- [ ] Hopcroft-Tarjan
 - [x] Floyd-Warshall
 - [x] Prim
 - [x] Kruskal
-### Búsqueda
-- [x] Búsqueda en Anchura
-- [x] Búsqueda en Profundidad
-### Recorrido
-- [x] Preorden
-- [x] Inorden
-- [x] Postorden
+- [ ] Hopcroft-Tarjan
+### Tree Traversals
+- [x] Depth-first search
+  - [x] Preorder
+  - [x] Inorder
+  - [x] Postorder
+- [x] Breadth-first search
