@@ -2,7 +2,7 @@
 ##  Introduction
 Data Structures Package for the *Estructuras de Datos Avanzadas* learning unit.
 
-It contains implementations of Advanced Data Strutures, Search Algorithms, Binary Trees and Graphs.
+It contains python implementations of Advanced Data Structures, Search Algorithms, Binary Trees and Graphs.
 ###  Data Structures
 - [x] Graph
 - [x] Binary Tree
