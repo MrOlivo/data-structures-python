@@ -6,7 +6,7 @@ class HavelHakimi(object):
                 print(arreglo)
                 d = arreglo.pop(0)
                 if d > len(arreglo):
-                    print('El valor (%s) es igual a la longitud (%s) del arreglo' % (
+                    print('Value (%s) is greater than array length (%s) itselft' % (
                         d, len(arreglo)))
                     break
                 if d == 0:
