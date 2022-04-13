@@ -1,22 +1,22 @@
-class Arbol():
+class BinaryTree():
     def __init__(self, data=None):
         self.data = data
         self.left = None
         self.right = None
 
-    def insert(self, valor):
+    def insert(self, value):
         if self.data == None:
-            self.data = valor
-        elif valor <= self.data:
+            self.data = value
+        elif value <= self.data:
             if self.left == None:
-                self.left = Arbol(valor)
+                self.left = BinaryTree(value)
             else:
-                self.left.insert(valor)
+                self.left.insert(value)
         else:
             if self.right == None:
-                self.right = Arbol(valor)
+                self.right = BinaryTree(value)
             else:
-                self.right.insert(valor)
+                self.right.insert(value)
 
     def inorder(self):
         if not (self.left == None):
