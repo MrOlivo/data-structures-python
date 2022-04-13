@@ -1,9 +1,9 @@
 class Arbol():
-    def __init__(self, dato = None):
+    def __init__(self, dato=None):
         self.dato = dato
         self.left = None
         self.right = None
-        
+
     def insert(self, valor):
         if self.dato == None:
             self.dato = valor
@@ -19,17 +19,22 @@ class Arbol():
                 self.right.insert(valor)
 
     def inorder(self):
-        if not (self.left == None): self.left.inorder()
+        if not (self.left == None):
+            self.left.inorder()
         print(self.dato, end=" ")
-        if not (self.right == None): self.right.inorder()
+        if not (self.right == None):
+            self.right.inorder()
 
     def preorder(self):
         print(self.dato, end=" ")
-        if not (self.left == None): self.left.preorder()
-        if not (self.right == None): self.right.preorder()
+        if not (self.left == None):
+            self.left.preorder()
+        if not (self.right == None):
+            self.right.preorder()
 
     def postorder(self):
-        if not (self.left == None): self.left.postorder()
-        if not (self.right == None): self.right.postorder()
+        if not (self.left == None):
+            self.left.postorder()
+        if not (self.right == None):
+            self.right.postorder()
         print(self.dato, end=" ")
-
