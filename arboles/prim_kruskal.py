@@ -18,9 +18,9 @@ class PrimKruskal(object):
             if destino not in visitados:
                 visitados.append(destino)
                 mst[desde].add(destino)
-                for adyacentes, costo in grafo[destino].items():
-                    if adyacentes not in visitados:
-                        heapq.heappush(arista, (costo, destino, adyacentes))
+                for adyacente, costo in grafo[destino].items():
+                    if adyacente not in visitados:
+                        heapq.heappush(arista, (costo, destino, adyacente))
 
         return mst
 
@@ -36,13 +36,10 @@ class PrimKruskal(object):
         heapq.heapify(aristas)
 
         while aristas:
-
             peso, origen, destino = heapq.heappop(aristas)
 
             if destino not in visitados:
-
                 visitados.append(destino)
-
                 mst[origen].add(destino)
 
         return dict(mst)
