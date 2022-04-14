@@ -17,9 +17,7 @@ class PrimKruskal(object):
 
             if destino not in visitados:
                 visitados.append(destino)
-
                 mst[desde].add(destino)
-
                 for adyacentes, costo in grafo[destino].items():
                     if adyacentes not in visitados:
                         heapq.heappush(arista, (costo, destino, adyacentes))
