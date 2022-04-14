@@ -17,5 +17,5 @@ grafo = {
 
 dj = Dijkstra()
 
-costo, camino = dj.encontrar_el_camino(grafo, "G", "F")
+costo, camino = dj.encontrar_el_camino(grafo, "A", "C")
 print(costo, camino)
