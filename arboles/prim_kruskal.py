@@ -1,7 +1,8 @@
 from collections import defaultdict
 import heapq
 
-class PrimKruskal(object):    
+
+class PrimKruskal(object):
 
     def prim(self, grafo, inicio):
         mst = defaultdict(set)
@@ -10,7 +11,7 @@ class PrimKruskal(object):
             (costo, inicio, destino) for destino, costo in grafo[inicio].items()
         ]
         heapq.heapify(arista)
-        
+
         while arista:
             costo, desde, destino = heapq.heappop(arista)
 
@@ -25,7 +26,7 @@ class PrimKruskal(object):
 
         return mst
 
-    def kruskal(self, grafo = dict()):
+    def kruskal(self, grafo=dict()):
         mst = defaultdict(set)
         visitados = []
         aristas = []
@@ -33,7 +34,7 @@ class PrimKruskal(object):
         for origen, adyacentes in grafo.items():
             for destino, peso in adyacentes.items():
                 aristas.append((peso, origen, destino))
-        
+
         heapq.heapify(aristas)
 
         while aristas:
@@ -41,7 +42,7 @@ class PrimKruskal(object):
             peso, origen, destino = heapq.heappop(aristas)
 
             if destino not in visitados:
-                
+
                 visitados.append(destino)
 
                 mst[origen].add(destino)
