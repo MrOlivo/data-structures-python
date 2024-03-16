@@ -23,7 +23,7 @@ It contains python implementations of Advanced Data Structures, Search Algorithm
 - [x] Floyd-Warshall
 - [x] Prim
 - [x] Kruskal
-- [ ] Hopcroft-Tarjan
+- [x] Hopcroft-Tarjan
 
 ### Tree Traversals
 
