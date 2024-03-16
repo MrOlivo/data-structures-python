@@ -54,3 +54,7 @@ Prim's algorithm is a greedy algorithm that finds the minimum spanning tree of a
 ### Kruskal
 
 Kruskal's algorithm is a greedy algorithm that finds the minimum spanning tree of a weighted undirected graph. It works by sorting the edges by weight and iteratively adding the next shortest edge that does not create a cycle until all vertices are included in the tree.
+
+### Hopcroft-Tarjan
+
+Tarjan's strongly connected components algorithm is an algorithm in graph theory for finding the strongly connected components (SCCs) of a directed graph.
